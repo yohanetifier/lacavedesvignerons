@@ -1,0 +1,16 @@
+body, figure {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    overflow: hidden;
+}
+
+video{
+    /* border: 2px solid red; */
+    /* width: 100vw;  */
+    /* object-fit: cover; */
+    /* height: 100vh; */
+}
+
