@@ -1,3 +1,33 @@
+@media screen and (max-width: 1200px){
+    figure {
+        transform: scale(0); 
+        position: absolute;
+    }
+    img {
+        transform: scale(1); 
+        width: 100vw; 
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+   img {
+    transform: scale(0);
+    }
+    figure {
+        height: 100vh;
+        width: 100vw; 
+    }
+    video{
+        transform: scale(1);
+        width: 100vw; 
+        object-fit: fill;
+        height: 100%;
+    }
+
+}
+
+
 body, figure {
     margin: 0; 
     padding: 0; 
@@ -7,10 +37,7 @@ body {
     overflow: hidden;
 }
 
-video{
-    /* border: 2px solid red; */
-    /* width: 100vw;  */
-    /* object-fit: cover; */
-    /* height: 100vh; */
+main {
+    margin: 0; 
+    overflow: hidden;
 }
-
